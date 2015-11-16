@@ -1,7 +1,8 @@
-[![Build Status][TRAVISIMG]][TRAVISLINK] 
-[![Dependency Status](https://gemnasium.com/quickstep25/me.jeh.svg)](https://gemnasium.com/quickstep25/me.jeh)
+[![Build Status][TRAVISIMG]][TRAVISLINK] [![Dependency Status](https://gemnasium.com/quickstep25/me.jeh.svg)](https://gemnasium.com/quickstep25/me.jeh)
 
 
+----------
+![MockupImage](http://www.johnathanerichill.com/media/images/mockup/mockup.iphone.png)
 
 ----------
 
@@ -31,9 +32,5 @@ These application software files (the "Software") are owned by (the "Client") Jo
 [DOUG]: quickstep25@users.noreply.github.com
 
 [TRAVISLINK]: https://travis-ci.org/quickstep25/me.jeh
-[GHLICLINK]: https://raw.githubusercontent.com/quickstep25/me.jeh/master/LICENSE
-[GHRELLINK]: https://github.com/quickstep25/me.jeh/releases
 
 [TRAVISIMG]: https://travis-ci.org/quickstep25/me.jeh.svg?branch=master 
-[GHLICIMG]: https://img.shields.io/github/license/quickstep25me.jeh.svg
-[GHRELIMG]: https://img.shields.io/github/release/quickstep25/me.jeh.svg
