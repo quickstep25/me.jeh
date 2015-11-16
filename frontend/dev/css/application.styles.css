@@ -2510,8 +2510,7 @@ body {
     transform: translate(-50%, -45%);
   }
   .component-page-vcard .content-box .content-header {
-    border: 1px solid #00C2F3;
-    border-bottom: none;
+    border: 1px solid rgba(0, 194, 243, 0.5);
     background-color: #002240;
     background-color: #00437d;
     background-image: -webkit-gradient(radial, 50% 0%, 0, 80% 120%, 200, from(#001f3b), to(#00437d));
@@ -2548,7 +2547,7 @@ body {
   .component-page-vcard .content-box .content-footer {
     position: static;
     margin: 0 auto;
-    border-top: 1px solid #00C2F3;
+    border-top: 1px solid transparent;
     width: 100%;
     height: 40px;
   }

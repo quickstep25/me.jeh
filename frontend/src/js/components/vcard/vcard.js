@@ -26,7 +26,7 @@ define(["jquery", "knockout", "velocity", "text!./vcard.html", "velocity.ui", "d
 					$fkids = $('footer .fx'),
 					sequenceArray = [];
 				sequenceArray = [
-					{ e: $bkg,		p: { backgroundColorAlpha: 0.0 }, o: { delay: 100, duration: 6500, display: 'block' } },
+					{ e: $bkg,		p: { backgroundColorAlpha: 0.0 }, o: { delay: 0, duration: 2500, display: 'block' } },
 					{ e: $header,	p: "transition.slideDownBigIn", o: { delay: 0, display: 'block', sequenceQueue: false } },
 					{ e: $footer,	p: "transition.slideUpBigIn", o: { delay: 0, display: 'block', sequenceQueue: false } },
 					{ e: $hkids,	p: "transition.slideLeftIn", o: { delay: 0, stagger: 250, display: null } },
@@ -42,7 +42,6 @@ define(["jquery", "knockout", "velocity", "text!./vcard.html", "velocity.ui", "d
 	VirtualCardVM.prototype.dispose = function () {
 		$('.fx').velocity('stop', true);
 	};
-
 	return { viewModel: VirtualCardVM, template: templateHTML };
 
 });
