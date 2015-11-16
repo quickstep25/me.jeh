@@ -1,0 +1,47 @@
+{
+  "name": "me.jeh",
+  "version": "1.0.0",
+  "authors": [
+    "Doug Hill"
+  ],
+  "description": "Virtual business card / portfolio site.",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "template",
+    "web application",
+    "responsive",
+    "web app",
+    "mobile app",
+    "knockout template",
+    "requirejs template"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_modules",
+    "test",
+    "tests",
+    "**/_dev",
+    "**/_devassets",
+    "**/_assets"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "knockoutjs": "~3.3.0",
+    "knockout-projections": "~1.1.0",
+    "requirejs-domready": "~2.0.1",
+    "requirejs-text": "~2.0.14",
+    "velocity": "~1.2.3",
+    "requirejs": "~2.1.20",
+    "crossroads": "~0.12.2",
+    "hasher": "~1.2.0",
+    "js-signals": "~1.0.0"
+  }
+}

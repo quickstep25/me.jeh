@@ -1,0 +1,31 @@
+//- HOME / LANDING PAGE
+section(data-bind="attr: { class: componentID }")
+	.content-box.component-content.center-responsive
+		header.content-header.fx(role="group")
+			.header-box
+				.selfie.fx(role="banner")
+					img(src="media/images/artwork/client_photo.png", alt="Johnathan Eric Hill photo")
+				.logo.fx(role="banner")
+					img(src="media/images/svg/logo.svg", alt="Johnathan Eric Hill")
+				//-h1.title
+				//-p.subtitle
+				.promo.fx(role="complimentary")
+					p Project Manufacturing Engineer
+				.contact_no
+					a#contact_no(role="link", title="Call Mobile", href="tel:2765963845", data-mobile="(276) 596-3845")
+		article.content-body(role="group")
+			//-.body-box
+		footer.content-footer.fx(role="group")
+			nav(role="list")
+				.footer-box.fx(role="listitem")
+					a#btn_linkedin(role="link", title="LinkedIn Profile", href="https://www.linkedin.com/in/johnathanerichill", target="_blank", type="text/html", hreflang="en")
+						i.fa.fa-fw.fa-linkedin-square
+				.footer-box.fx(role="listitem")
+					a#btn_email(role="link", title="Email Career Opportunity", href="mailto:ehill0613@gmail.com?subject=Career%20Opportunity", target="_top")
+						.fa.fa-fw.fa-envelope-square
+				.footer-box.fx(role="listitem")
+					a#btn_resume(role="link", title="Download Resume", href="https://www.linkedin.com/profile/pdf?id=AAEAAAsjqtcBzpdY4Uz3sAnp61OMzd9QMq6_wJ0&locale=en_US&authType=NAME_SEARCH&authToken=lka7&pdfFileName=EricHill&disablePdfCompression=true&trk=pdf_pro_full", target="_top", type="application/pdf")
+						.fa.fa-fw.fa-file-text
+				.footer-box.fx(role="listitem")
+					a#btn_contact_no(role="button", title="Contact Number", href="#", data-bind="click:showContactNo")
+						.fa.fa-fw.fa-phone-square

@@ -1,0 +1,78 @@
+// SMALL SCREEN
+@media (min-width: @screen-sm-min) {
+
+	.component-page-vcard {
+
+		.content-box {
+			max-width: 								520px;
+			height: 								auto;
+			min-height: 							0;
+			margin: 								auto;
+			overflow: 								visible;
+
+			// THE ABSOLUTE AND RESPONSIVE CLASS PAIRS SHOULD GO HAND IN HAND, AND CAN EITHER BE SET IN THE
+			// COMPONENT STYLESHEET OR IN THE CORE APPLICATION STYLESHEET, HOWEVER BY DOING SO IN THE APPLICATION STYLESHEET
+			// WILL CHANGE ALL ELEMENTS WITH THOSE STYLES MAKING THE CLASS NOT REALLY REUSABLE - NOT RECOMMENDED
+			// BEST TO USE  IN THE COMPONENT STYLESHEET SO THE EFFECT IS LOCALIZED
+			// DESIGING FOR MOBILE FIRST AS THE DEFAULT STYLE / LAYOUT, RESPONSIVE / CENTERING SETTINGS DONT REALLY APPLY SINCE APP WILL TAKE UP VIEWPORT
+			&.center-responsive {
+				position: 							absolute;
+				overflow: 							visible;
+				top: 								45%;
+				left: 								50%;
+				.translate							(-50%, -45%);
+			}
+
+			.content-header {
+
+				border: 							1px solid @swatch-highlight;
+				border-bottom: 						none;
+				background-color: 					@swatch-shadow;
+				#application-gradients > .top-spotlight(@color1: lighten(@swatch-shadow, 12%); @color2: darken(@swatch-shadow, 1%); @posX: 50%; @posY: 0%; @sizeX: 80%; @sizeY: 120%);
+				border-top-left-radius: 			3px;
+				border-top-right-radius: 			3px;
+
+				h1, h2, h3, h4, h5, h6 {} p {}
+
+				.header-box {
+					position: 						relative;
+					padding-top: 					60px;
+				}
+				.selfie {
+					width: 							22%;
+					position: 						absolute;
+					top: 							-67px;
+					left: 							0;
+					right: 							0;
+					display: 						block;
+				}
+				.logo {
+					width: 							65%;
+					margin: 						0;
+					margin-top: 					20px;
+					margin-left: 					20px;
+				}
+				.title {}
+				.subtitle {}
+				.promo {
+//					width: 							40%;
+					margin: 						0;
+					margin-left: 					20px;
+				}
+
+			}
+			.content-body { .body-box { p {} } }
+			.content-footer {
+				position: 							static;
+				margin: 							0 auto;
+				border-top: 						1px solid @swatch-highlight;
+				width: 								100%;
+				height: 							40px;
+				.footer-box {
+					.box-shadow						(none);
+					a {}
+				}
+			}
+		}
+	}
+}
