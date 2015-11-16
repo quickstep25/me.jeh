@@ -1,6 +1,6 @@
 {
   "name": "me.jeh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Doug Hill"
   ],
@@ -12,15 +12,15 @@
     "node"
   ],
   "keywords": [
-    "template",
-    "web application",
-    "responsive",
-    "web app",
-    "mobile app",
-    "knockout template",
-    "requirejs template"
+    "vcard",
+    "virtual card",
+    "online profile",
+    "web profile app",
+    "mobile profile app",
+    "engineer portfolio",
+    "engineer profile"
   ],
-  "license": "MIT",
+  "license": "",
   "private": true,
   "ignore": [
     "node_modules",

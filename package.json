@@ -1,17 +1,17 @@
 {
   "name": "me.jeh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Virtual business card / portfolio site.",
   "keywords": [
-    "portfolio",
-    "virtual business card",
-    "responsive",
-    "web app",
-    "mobile app",
-    "knockoutjs",
-    "requirejs"
+    "vcard",
+    "virtual card",
+    "online profile",
+    "web profile app",
+    "mobile profile app",
+    "engineer portfolio",
+    "engineer profile"
   ],
-  "license": "MIT",
+  "license": "",
   "author": {
     "name": "Doug Hill",
     "email": "quickstep25@users.noreply.github.com",
