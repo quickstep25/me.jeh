@@ -1,12 +1,13 @@
 /*global define, console*/
-define(["jquery", "knockout", "velocity", "text!./vcard.html", "velocity.ui", "domready"], function ($, ko, velocity, templateHTML) {
+define(["jquery", "knockout", "velocity", "text!./vcard.html", "google.analytics", "velocity.ui", "domready"], function ($, ko, velocity, templateHTML, ga) {
 	"use strict";
 
 	// DEFINE VIEW MODEL
 	var VirtualCardVM		= function (params) {
 		this.params			= ko.observable(params);
-		this.componentID		= ko.observable('component-page-' + params.page);
+		this.componentID	= ko.observable('component-page-' + params.page);
 		this.runFX();
+		this.sendHit();
 	};
 
 	// ADD ACTION FUNCTIONALITY TO THE INTERFACE / VIEWMODEL
@@ -35,6 +36,12 @@ define(["jquery", "knockout", "velocity", "text!./vcard.html", "velocity.ui", "d
 				$bkg.add($header).add($footer).add($hkids).add($fkids).velocity('stop', true);
 				$.Velocity.RunSequence(sequenceArray);
 			});
+		},
+
+		// SEND PAGE HIT TO ANALYTICS
+		sendHit	:	function () {
+			ga('create', 'UA-26957181-13', 'auto');
+			ga('send', 'pageview');
 		}
 	});
 
