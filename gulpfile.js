@@ -18,13 +18,13 @@
 		chalk	= require('chalk'),
 		merge	= require('deeply'),
 		// GULP MODULE VARIABLES
-		gulp		= require('gulp'),
-		jade		= require('gulp-jade'),
+		gulp	= require('gulp'),
+		jade	= require('gulp-jade'),
 		filter	= require('gulp-filter'),
 		rename	= require('gulp-rename'),
-		util		= require('gulp-util'),
-		ugly		= require('gulp-uglify'),
-		less		= require('gulp-less'),
+		util	= require('gulp-util'),
+		ugly	= require('gulp-uglify'),
+		less	= require('gulp-less'),
 		image	= require('gulp-imagemin'),
 		md		= require('gulp-markdown'),
 		css		= require('gulp-minify-css'),
@@ -36,8 +36,8 @@
 			bower	: './bower_modules/',
 			src		: './frontend/src/',
 			dev		: './frontend/dev/',
-			prod		: './frontend/prod/',
-			base		: './'
+			prod	: './frontend/prod/',
+			base	: './'
 		},
 		// BOWER DIRECTORIES - USED TO COPY INTO ASSETS
 		bower		= {
@@ -46,18 +46,13 @@
 				fonts		: ['font-awesome/fonts/**/*']
 			},
 			jquery		: ['jquery/dist/jquery.js'],
-			velocity		: ['velocity/velocity.js', 'velocity/velocity.ui.js'],
-			knockout		: ['knockoutjs/dist/knockout.js', 'knockout-projections/dist/knockout-projections.js'],
+			velocity	: ['velocity/velocity.js', 'velocity/velocity.ui.js'],
+			knockout	: ['knockoutjs/dist/knockout.js', 'knockout-projections/dist/knockout-projections.js'],
 			require		: ['requirejs/require.js', 'requirejs-text/text.js', 'requirejs-domready/domReady.js'],
 			crossroads	: ['crossroads/dist/crossroads.js'],
 			hasher		: ['hasher/dist/js/hasher.js'],
 			signals		: ['js-signals/dist/signals.js']
 		};
-
-		// COPY FILE FUNCTION TO BE USED AS CALLBACKS SO THEY WONT INTERFERE WITH GULP.WATCH
-		// copy_assets = function () { return gulp.start('copy_assets'); },
-		// build_assets = function () { return gulp.start('build'); };
-
 
 	//////////////////////////////////////////////////////////////////////////////
 	/// CLEAN - DELETE BUILD FILES AND DIRECTORIES                              //
