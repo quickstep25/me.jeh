@@ -35,7 +35,7 @@
   "dependencies": {},
   "devDependencies": {
     "chalk": "^1.1.1",
-    "deeply": "^0.1.0",
+    "deeply": "^1.0.0",
     "del": "^2.0.2",
     "event-stream": "^3.3.2",
     "gulp": "^3.9.0",
