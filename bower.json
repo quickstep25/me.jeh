@@ -33,7 +33,7 @@
 	],
 	"dependencies": {
 		"font-awesome": "^4.0.0",
-		"jquery": "^2.0",
+		"jquery": "^3.0",
 		"knockoutjs": "^3.0",
 		"knockout-projections": "^1.0",
 		"requirejs-domready": "^2.0",
