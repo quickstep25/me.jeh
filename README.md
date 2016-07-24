@@ -30,7 +30,5 @@ These application software files (the "Software") are owned by (the "Client") Jo
 [ERIC]: http://www.johnathanerichill.com
 [DHTS]: http://www.dhtechnicalsolutions.com
 [DOUG]: quickstep25@users.noreply.github.com
-
 [TRAVISLINK]: https://travis-ci.org/quickstep25/me.jeh
-
 [TRAVISIMG]: https://travis-ci.org/quickstep25/me.jeh.svg?branch=master 
