@@ -2,9 +2,6 @@
 
 
 ----------
-![MockupImage](http://www.johnathanerichill.com/media/images/mockup/mockup.iphone.png)
-
-----------
 
 ##<i class="icon-file"></i> Personal Branding Virtual Card - Johnathan Eric Hill
 This is a branding software project, meaning it is specifically customized to fit one individual's needs and only one.  None of the files may be used for distribution or for resell.  Files in this Software project are listed in GitHub only as a repository means.
@@ -30,5 +27,7 @@ These application software files (the "Software") are owned by (the "Client") Jo
 [ERIC]: http://www.johnathanerichill.com
 [DHTS]: http://www.dhtechnicalsolutions.com
 [DOUG]: quickstep25@users.noreply.github.com
+
 [TRAVISLINK]: https://travis-ci.org/quickstep25/me.jeh
+
 [TRAVISIMG]: https://travis-ci.org/quickstep25/me.jeh.svg?branch=master 

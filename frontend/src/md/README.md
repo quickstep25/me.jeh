@@ -2,9 +2,6 @@
 
 
 ----------
-![MockupImage](http://www.johnathanerichill.com/media/images/mockup/mockup.iphone.png)
-
-----------
 
 ##<i class="icon-file"></i> Personal Branding Virtual Card - Johnathan Eric Hill
 This is a branding software project, meaning it is specifically customized to fit one individual's needs and only one.  None of the files may be used for distribution or for resell.  Files in this Software project are listed in GitHub only as a repository means.
