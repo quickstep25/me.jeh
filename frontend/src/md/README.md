@@ -17,7 +17,7 @@ Client:  [Johnathan Eric Hill][ERIC]
 Developer: [Doug A. Hill][DOUG] : [quickstep25][DOUG]
 
 ##<i class="icon-hammer"></i> License
-Copyright &copy; 2015 | All Rights Reserved | [Johnathan Eric Hill][ERIC] | created by: [www.dhtechnicalsolutions.com][DHTS]
+Copyright &copy; 2015-2016 | All Rights Reserved | [Johnathan Eric Hill][ERIC] | created by: [www.dougahill.com][DHTS]
 
 
 These application software files (the "Software") are owned by (the "Client") Johnathan Eric Hill. All images, logos, slogans (the "Marks") are within the Software files are explicitly considered intellectual property and may not be used for resale or distribution. Use of any of the Software files is prohibited unless written permission from Client is obtained. This Software is providing the Third-Party Software to you by permission of the respective licensors and/or copyright holders on the terms provided by such parties, including those terms required in any Third-Party Software End User License and Agreements. The Author expressly disclaims any warranty, liability or other assurance to you regarding the Third-Party Software.
@@ -25,7 +25,7 @@ These application software files (the "Software") are owned by (the "Client") Jo
 
 
 [ERIC]: http://www.johnathanerichill.com
-[DHTS]: http://www.dhtechnicalsolutions.com
+[DHTS]: http://www.dougahill.com
 [DOUG]: quickstep25@users.noreply.github.com
 
 [TRAVISLINK]: https://travis-ci.org/quickstep25/me.jeh

@@ -1,6 +1,5 @@
-/*global ga, define, console*/
-/*jslint nomen: true */
-define(["jquery", "knockout", "velocity", "text!./vcard.html", "google.analytics", "velocity.ui", "domready"], function ($, ko, velocity, templateHTML, __ga__) {
+/*global define, console*/
+define(["jquery", "knockout", "velocity", "text!./vcard.html", "google.analytics", "velocity.ui", "domready"], function ($, ko, velocity, templateHTML, ga) {
 	"use strict";
 
 	// DEFINE VIEW MODEL
@@ -8,7 +7,7 @@ define(["jquery", "knockout", "velocity", "text!./vcard.html", "google.analytics
 		this.params			= ko.observable(params);
 		this.componentID	= ko.observable('component-page-' + params.page);
 		this.runFX();
-		this.pageview();
+		this.sendHit();
 	};
 
 	// ADD ACTION FUNCTIONALITY TO THE INTERFACE / VIEWMODEL
@@ -38,15 +37,11 @@ define(["jquery", "knockout", "velocity", "text!./vcard.html", "google.analytics
 				$.Velocity.RunSequence(sequenceArray);
 			});
 		},
-		
-		// SEND PAGE VIEW TO GOOGLE
-		pageview : function () {
+
+		// SEND PAGE HIT TO ANALYTICS
+		sendHit	:	function () {
 			ga('create', 'UA-26957181-13', 'auto');
-			ga('set', {
-				page: 'index',
-				title: 'VCard Landing'
-			});
-			return ga('send', 'pageview');
+			ga('send', 'pageview');
 		}
 	});
 
@@ -57,4 +52,3 @@ define(["jquery", "knockout", "velocity", "text!./vcard.html", "google.analytics
 	return { viewModel: VirtualCardVM, template: templateHTML };
 
 });
-/*jslint nomen: false */

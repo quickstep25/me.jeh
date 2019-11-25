@@ -23,7 +23,7 @@ var require = {
 		},
 
 		'google.analytics'	: {
-			exports			: '__ga__'
+			exports			: 'ga'
 		},
 
 		'velocity'		: {
